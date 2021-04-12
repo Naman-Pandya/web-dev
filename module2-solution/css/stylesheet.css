@@ -1,0 +1,121 @@
+*{ 
+    
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1.75em;
+    font-family: 'Lucida Sans';
+    margin: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+#s1{
+    float: left;
+    position: relative;
+    background-color: #dac75c;
+    margin-left: 5px;
+   
+    border:1px solid black;
+
+}
+#a{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 125%;
+    margin: 0px;
+    background-color: indianred;
+    border:1px solid black;
+}
+#s2{
+    float: left;
+    position: relative;
+    background-color: #dac75c;
+
+    
+    border:1px solid black;
+}
+p{
+    margin-top: 50px;
+    padding: 5px;
+    font-family: 'Times New Roman';
+}
+
+#b{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 125%;
+    margin: 0px;
+    background-color: rgb(57, 134, 128);
+    border:1px solid black;
+}
+#s3{
+    float: left;
+    position: relative;
+    background-color: #dac75c;
+   
+   
+    border:1px solid black;
+}
+#c{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 125%;
+    margin: 0px;
+    background-color: rgb(92, 122, 205);
+    border:1px solid black;
+}
+@media (min-width:992px){
+    #s1{
+       margin-left: 9px;
+        width: 32%;
+        height:230px;
+    }
+    #s2{
+        margin-left: 14px;
+        width: 32%;
+        height:230px;
+    }
+    #s3{
+        margin-left: 14px;
+        height:230px;
+        width: 32%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #s1{
+        height: 200px;
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    #s2{
+        height: 200px;
+        width: 49%;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    #s3{
+        margin-left: 5px;
+        width: 99.2%;
+    }
+}
+@media (max-width:767px){
+    #s1{
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+    #s2{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+    #s3{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 5px;
+    }
+}
